@@ -1,0 +1,8 @@
+# Caminhos antigos ou digitados à mão caem no idioma certo.
+# A raiz "/" NÃO entra aqui: ela é servida por public/index.html, que
+# detecta o idioma do navegador antes de redirecionar.
+/home     /pt/         301
+/sobre    /pt/#sobre   301
+/contato  /pt/#contato 301
+/about    /en/#sobre   301
+/contact  /en/#contato 301

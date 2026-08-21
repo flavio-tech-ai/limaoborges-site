@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<title>Flavio "Limão" Araujo</title>
+<!--
+  Raiz do site. O export estático não roda proxy/middleware, então a
+  detecção de idioma que ficava no servidor acontece aqui, no navegador,
+  antes de qualquer pintura. O <link rel="canonical"> aponta para o PT
+  para o buscador não indexar esta página de passagem.
+-->
+<link rel="canonical" href="/pt/">
+<script>
+  (function () {
+    var suportados = ["pt", "en"];
+    var escolhido = "pt";
+    var idiomas = navigator.languages || [navigator.language || ""];
+    for (var i = 0; i < idiomas.length; i++) {
+      var base = String(idiomas[i]).toLowerCase().split("-")[0];
+      if (suportados.indexOf(base) !== -1) { escolhido = base; break; }
+    }
+    location.replace("/" + escolhido + "/");
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=/pt/">
+</head>
+<body>
+  <p>Redirecionando… <a href="/pt/">Continuar em português</a> · <a href="/en/">Continue in English</a></p>
+</body>
+</html>

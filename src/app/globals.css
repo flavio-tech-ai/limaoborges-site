@@ -1,0 +1,432 @@
+@import "tailwindcss";
+
+/* Tailwind v4 não tem tailwind.config.js. Esta é a forma equivalente ao
+   antigo darkMode: "class": a variante `dark:` passa a casar com .dark. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-canvas: #f6f8f2;
+  --color-canvas-alt: #fcfaf7;
+  --color-ink: #121914;
+  --color-ink-soft: #4b564c;
+  --color-lime: #3fa34d;
+  --color-lime-soft: #a9c9a4;
+  --color-lime-glow: #d7ecc8;
+  --color-lemon: #f3f7a6;
+  --color-pink: #e63888;
+  --color-pink-soft: #f0b8c4;
+  --color-pink-glow: #fbdfe6;
+  --color-cream: #f1ede3;
+}
+
+
+/* ============================================================
+   TEMA ESCURO
+   Os componentes leem os mesmos tokens, então redefini-los aqui
+   vira quase o site inteiro. O que sobra são as camadas de vidro
+   e alguns brancos fixos, tratados logo abaixo.
+   ============================================================ */
+.dark {
+  --color-canvas: #0d120f;
+  --color-canvas-alt: #14161a;
+  --color-ink: #f3f4f6;
+  --color-ink-soft: #a9b4ad;
+  --color-lime: #4ade80;
+  --color-lime-soft: #2f6b3f;
+  --color-lime-glow: #17321f;
+  --color-lemon: #d9e05f;
+  --color-pink: #f472b6;
+  --color-pink-soft: #7d3355;
+  --color-pink-glow: #33131f;
+  --color-cream: #1c2220;
+}
+
+@theme inline {
+  --color-canvas: var(--color-canvas);
+  --color-canvas-alt: var(--color-canvas-alt);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-lime: var(--color-lime);
+  --color-lime-soft: var(--color-lime-soft);
+  --color-lime-glow: var(--color-lime-glow);
+  --color-lemon: var(--color-lemon);
+  --color-pink: var(--color-pink);
+  --color-pink-soft: var(--color-pink-soft);
+  --color-pink-glow: var(--color-pink-glow);
+  --color-cream: var(--color-cream);
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-accent: "Instrument Serif", ui-serif, Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nada de hifenização automática: o navegador quebrava palavras no meio
+   com hífen, em PT e em EN. Palavras longas ainda quebram, mas sem hífen. */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+li,
+a,
+span {
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: break-word;
+}
+
+/* Limão flutuando na seção de contato */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(-2deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-\[spin_24s_linear_infinite\] {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--color-lime-soft);
+  color: var(--color-ink);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, #17211b 0%, #2f5e3a 32%, var(--color-lime) 52%, var(--color-pink) 88%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Degradê do título da hero: verde-hortelã à esquerda derivando para
+   rosa pastel à direita. Cada trecho marcado recebe o seu próprio
+   degradê, então a transição acontece dentro da palavra e não ao
+   longo da linha inteira. */
+.text-gradient-mint {
+  background: linear-gradient(
+    100deg,
+    #5aa063 0%,
+    #93a889 26%,
+    #bd8ba4 60%,
+    #d94b8f 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* padding evita que a serifa da última letra seja cortada pelo clip */
+  padding-right: 0.04em;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(23, 33, 27, 0.06);
+}
+
+
+/* Barra de navegação: mais opaca que os demais cartões de vidro, para o
+   conteúdo da página não competir com os links durante o scroll. */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow:
+    0 8px 32px 0 rgba(23, 33, 27, 0.08),
+    0 1px 2px 0 rgba(23, 33, 27, 0.04);
+}
+
+
+/* Painel do menu: praticamente opaco. Com vidro translúcido o texto da
+   página passava por trás dos links e ficava ilegível nos dois temas. */
+.nav-panel{
+  background:#fbfcfa;
+  border:1px solid rgba(18,25,20,.08);
+  box-shadow:0 18px 44px -8px rgba(23,33,27,.22),0 2px 6px rgba(23,33,27,.06);
+}
+.dark .nav-panel{
+  background:#161c18;
+  border-color:rgba(255,255,255,.12);
+  box-shadow:0 18px 44px -8px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.4);
+}
+
+.glass-dark {
+  background: rgba(18, 25, 20, 0.85);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.noise-overlay {
+  position: relative;
+}
+
+.noise-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Vidro no escuro: branco a 5% em vez de 60%, borda de luz baixa e
+   sombra bem mais funda, senão o cartão some no fundo. */
+.dark .glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.dark .glass-nav {
+  background: rgba(20, 26, 22, 0.82);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 8px 32px 0 rgba(0, 0, 0, 0.45),
+    0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* A borda em degradê é feita de brancos; no escuro vira luz fraca. */
+.dark .border-gradient::before {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(74, 222, 128, 0.28) 38%,
+    rgba(244, 114, 182, 0.24) 68%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+}
+
+/* multiply escurece o que já é escuro; no tema escuro o ruído clareia. */
+.dark .noise-overlay::after {
+  mix-blend-mode: soft-light;
+  opacity: 0.06;
+}
+
+/* O degradê do título perde contraste sobre fundo escuro: mesmas cores,
+   versões mais luminosas. */
+.dark .text-gradient-mint {
+  background: linear-gradient(
+    100deg,
+    #6ee79a 0%,
+    #9fd3ae 26%,
+    #e2a7c4 60%,
+    #f472b6 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.dark .glow-lime {
+  box-shadow:
+    0 20px 55px -14px rgba(74, 222, 128, 0.3),
+    0 4px 18px -6px rgba(74, 222, 128, 0.18);
+}
+
+/* Transição suave de tema em tudo que muda de cor. */
+.glass,
+.glass-nav,
+.border-gradient,
+.neon,
+section,
+input,
+textarea,
+button,
+a {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================================
+   EFEITOS PREMIUM
+   Três camadas reutilizáveis: reflexo diagonal (shine), borda em
+   degradê e brilho difuso. Todas puramente decorativas, em
+   ::before/::after, para não exigir marcação extra.
+   ============================================================ */
+
+/* Reflexo diagonal que atravessa o elemento no hover. */
+.shine {
+  position: relative;
+  isolation: isolate;
+}
+.shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 32%,
+    rgba(255, 255, 255, 0.35) 45%,
+    rgba(255, 255, 255, 0.75) 50%,
+    rgba(255, 255, 255, 0.35) 55%,
+    transparent 68%
+  );
+  transform: translateX(-125%);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.shine:hover::after,
+.shine:focus-within::after {
+  transform: translateX(125%);
+}
+
+/* Variante em loop suave, para um único elemento de destaque.
+   O atraso longo dentro do próprio keyframe evita um piscar
+   constante que competiria com a leitura. */
+.shine-loop::after {
+  transition: none;
+  animation: shineSweep 6s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+@keyframes shineSweep {
+  0%,
+  62% {
+    transform: translateX(-125%);
+  }
+  100% {
+    transform: translateX(125%);
+  }
+}
+
+/* Neon no hover: o brilho assume a cor do próprio card, definida em
+   --neon por quem usa a classe. Anel fino + halo difuso na mesma cor. */
+.neon {
+  transition:
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.neon:hover,
+.neon:focus-within {
+  border-color: color-mix(in srgb, var(--neon) 55%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--neon) 45%, transparent),
+    0 0 22px -2px color-mix(in srgb, var(--neon) 55%, transparent),
+    0 22px 48px -14px color-mix(in srgb, var(--neon) 60%, transparent);
+}
+
+
+/* No escuro o mesmo halo quase não aparece: o fundo já é escuro, então a
+   sombra difusa se perde. A versão dark sobe a opacidade e ganha um anel
+   interno para o contorno acender de fato. */
+.dark .neon:hover,
+.dark .neon:focus-within {
+  border-color: color-mix(in srgb, var(--neon) 75%, transparent);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--neon) 40%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--neon) 65%, transparent),
+    0 0 26px -2px color-mix(in srgb, var(--neon) 55%, transparent),
+    0 0 60px -10px color-mix(in srgb, var(--neon) 45%, transparent);
+}
+
+/* Borda em degradê: pinta só o anel de 1px usando duas máscaras
+   que se cancelam no miolo. */
+.border-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  padding: 1px;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(169, 201, 164, 0.55) 38%,
+    rgba(240, 184, 196, 0.5) 68%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+
+/* Brilhos difusos coloridos. */
+.glow-lime {
+  box-shadow:
+    0 20px 55px -14px rgba(63, 163, 77, 0.45),
+    0 4px 18px -6px rgba(63, 163, 77, 0.22);
+}
+.glow-pink {
+  box-shadow:
+    0 20px 55px -14px rgba(230, 56, 136, 0.35),
+    0 4px 18px -6px rgba(230, 56, 136, 0.18);
+}
+.glow-dot {
+  box-shadow:
+    0 0 0 6px rgba(63, 163, 77, 0.12),
+    0 8px 22px -4px rgba(63, 163, 77, 0.5);
+}
+
+/* Grids e flex: impede que um filho com conteúdo longo force a
+   coluna a crescer além do contêiner (min-width:auto é o padrão). */
+.min-w-0-children > * {
+  min-width: 0;
+}
+
+/* ============================================================
+   MOVIMENTO REDUZIDO
+   Desliga varreduras, loops e o giro do carimbo. O Framer Motion
+   é tratado à parte, pelo MotionConfig em MotionProvider.
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .shine::after,
+  .shine-loop::after {
+    display: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

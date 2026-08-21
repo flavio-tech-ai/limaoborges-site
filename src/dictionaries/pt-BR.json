@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "locale": "pt-BR",
+    "title": "Flavio \"Limão\" Araujo · AI Engineer",
+    "description": "AI Engineer. Sistemas multiagentes, bases de conhecimento e uma ideia fixa: IA que devolve autonomia às pessoas.",
+    "ogAlt": "Flavio Araujo, AI Engineer, conhecido como Limão"
+  },
+  "ui": {
+    "nav": {
+      "home": "Home",
+      "about": "Sobre",
+      "experience": "Experiência",
+      "contact": "Contato"
+    },
+    "menu": {
+      "open": "Abrir menu",
+      "close": "Fechar menu"
+    },
+    "lang": {
+      "label": "Idioma",
+      "current": "PT",
+      "switchTo": "EN",
+      "switchAria": "Switch language to English",
+      "switchTitle": "Read this page in English"
+    },
+    "cta": {
+      "primary": "Vamos conversar",
+      "secondary": "Ver trajetória",
+      "backToTop": "Voltar ao topo"
+    },
+    "badge": {
+      "role": "AI Engineer",
+      "currentRole": "Cargo atual",
+      "location": "São Paulo, Brasil · Remoto"
+    },
+    "tooltip": {
+      "copyEmail": "Copiar email",
+      "emailCopied": "Copiado!",
+      "copyFailed": "Não deu para copiar. Selecione o texto.",
+      "openLinkedin": "Abrir perfil no LinkedIn",
+      "externalLink": "Abre em uma nova aba"
+    },
+    "form": {
+      "legend": "Formulário de contato",
+      "name": {
+        "label": "Nome",
+        "placeholder": "Seu nome",
+        "error": "Como posso te chamar?"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "voce@email.com",
+        "error": "Confere o email? Preciso dele para responder."
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Conta o que você tem em mente",
+        "error": "Escreve uma linha que seja. Eu leio todas."
+      },
+      "submit": "Enviar mensagem",
+      "submitting": "Enviando...",
+      "success": {
+        "title": "Mensagem enviada.",
+        "body": "Respondo em até dois dias úteis."
+      },
+      "error": {
+        "title": "Algo deu errado no envio.",
+        "body": "Tenta de novo ou escreve direto para hello@limaotech.com."
+      },
+      "required": "Campo obrigatório"
+    },
+    "a11y": {
+      "skipToContent": "Pular para o conteúdo",
+      "portrait": "Foto de Flavio Araujo",
+      "illustration": "Ilustração de um limão de fones de ouvido, com café, trabalhando no laptop",
+      "decorative": "Elemento decorativo"
+    },
+    "brand": {
+      "name": "Flavio Limão"
+    },
+    "theme": {
+      "label": "Tema",
+      "toDark": "Alternar para modo escuro",
+      "toLight": "Alternar para modo claro"
+    }
+  },
+  "hero": {
+    "eyebrow": "Engenheiro de IA",
+    "subtitle": "Olá, eu sou o Flavio, mas pode me chamar de Limão. Construo sistemas multiagentes e bases de conhecimento com uma ideia fixa: IA que devolve autonomia às pessoas.",
+    "titleLines": [
+      [
+        {
+          "text": "A perspectiva que"
+        },
+        {
+          "text": "faz a diferença",
+          "gradient": true
+        }
+      ],
+      [
+        {
+          "text": "na"
+        },
+        {
+          "text": "Engenharia de IA",
+          "gradient": true
+        }
+      ]
+    ]
+  },
+  "story": {
+    "eyebrow": "A origem do apelido",
+    "title": "Onde a minha marca pessoal começou",
+    "stamp": "feito de quem eu sou · não só de código ·",
+    "paragraphs": [
+      "Quando criança, eu queria o apelido do meu amigo: Alemão. Não fazia sentido nenhum, eu não tinha nada de alemão, mas pedia mesmo assim.",
+      "Nunca colou. O que pegou foi Limão. Rimava, e ninguém tinha me perguntado. Levei anos para entender que a essência estava exatamente aí: destaque não se pede, se constrói.",
+      "Anos depois, entrei numa empresa que queria ser AI first. Cheguei com uma visão de Inteligência Artificial que ia além do que esperavam de \"mais um engenheiro\". E o apelido voltou, dessa vez vindo deles."
+    ],
+    "punchline": "Eles não contrataram um engenheiro de IA. Contrataram o Limão.",
+    "quote": "Não existe tecnologia sem produto, e não existe produto sem pessoas. Quando as pessoas são livres pra serem elas mesmas, entregam o que só elas poderiam entregar."
+  },
+  "focus": {
+    "eyebrow": "Foco técnico",
+    "title": "Onde eu entrego mais valor",
+    "lead": "Três frentes que resumem como eu penso IA aplicada a produto.",
+    "cards": [
+      {
+        "id": "multiagent",
+        "tag": "AARIN · Fintech",
+        "title": "Multiagentes & base de conhecimento",
+        "description": "Arquiteturas multiagentes, harness de avaliação e bases de conhecimento que sustentam decisões de produto e de atendimento.",
+        "chips": [
+          "Multiagentes",
+          "Harness",
+          "Knowledge Base"
+        ]
+      },
+      {
+        "id": "physics-to-product",
+        "tag": "Formação em Física",
+        "title": "De dados a produto de IA",
+        "description": "O rigor analítico da Física e da ciência de dados aplicado onde importa: sistemas que chegam em produção e seguem funcionando.",
+        "chips": [
+          "Data Science",
+          "Product Engineering",
+          "Pesquisa aplicada"
+        ]
+      },
+      {
+        "id": "ai-first",
+        "tag": "Filosofia de trabalho",
+        "title": "AI-first & autonomia de produto",
+        "description": "IA responsável, medida por resultado e por quanto trabalho manual ela tira do caminho das pessoas.",
+        "chips": [
+          "AI-first",
+          "Autonomia",
+          "Qualidade"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Trajetória",
+    "title": "Da física até a IA de produto",
+    "lead": "Quatro paradas que explicam como cheguei aqui e por que a IA virou o foco.",
+    "currentLabel": "Cargo atual",
+    "roles": [
+      {
+        "id": "aarin",
+        "company": "AARIN",
+        "role": "AI Engineer",
+        "period": "Atual · Fintech",
+        "isCurrent": true,
+        "summary": "Ajudo a construir a área de IA de uma fintech, do zero.",
+        "bullets": [
+          "Projeto e coloco em produção sistemas multiagentes e harness de avaliação para os produtos da casa.",
+          "Estruturo bases de conhecimento que sustentam decisões de produto e de atendimento.",
+          "Defino as práticas de IA responsável, medidas por resultado, qualidade e autonomia dos times."
+        ],
+        "tags": [
+          "Multiagentes",
+          "Harness",
+          "IA responsável"
+        ]
+      },
+      {
+        "id": "tempo",
+        "company": "TEMPO",
+        "role": "Engenheiro de Machine Learning",
+        "period": "Multiagentes",
+        "isCurrent": false,
+        "summary": "Entrei quando a empresa tinha três meses e o atendimento era 100% humano.",
+        "bullets": [
+          "Introduzi IA como camada de apoio ao time humano, sem substituí-lo.",
+          "Construí a arquitetura multiagente que sustentou o crescimento do atendimento.",
+          "Foi aqui que \"Limão\" pegou de verdade: pela entrega, não pela história."
+        ],
+        "tags": [
+          "Multiagentes",
+          "Atendimento com IA"
+        ]
+      },
+      {
+        "id": "gavb",
+        "company": "GAVB · Grupo Boticário",
+        "role": "Analista de Deep Learning",
+        "period": "Deep Learning",
+        "isCurrent": false,
+        "summary": "Coringa do time de dados, com passagem por dezenas de domínios diferentes.",
+        "bullets": [
+          "Entreguei projetos curtos de deep learning em contextos muito distintos, um atrás do outro.",
+          "Migrei para projetos de agentes de IA ainda na era do GPT-3.5 e decidi ali que era essa a especialização."
+        ],
+        "tags": [
+          "Deep Learning",
+          "Agentes de IA"
+        ]
+      },
+      {
+        "id": "cnpem",
+        "company": "CNPEM",
+        "role": "Analista de Desenvolvimento Científico",
+        "period": "Engenharia Física",
+        "isCurrent": false,
+        "summary": "Estágio e iniciação científica durante a graduação em Engenharia Física.",
+        "bullets": [
+          "Trabalhei em pesquisa aplicada em um dos principais centros científicos do país.",
+          "Cheguei perto da carreira acadêmica e escolhi outro caminho: queria ver o que construo chegar às mãos das pessoas, mais rápido."
+        ],
+        "tags": [
+          "Física",
+          "Pesquisa aplicada"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "titleAccent": "grande experiência",
+    "lead": "IA, produto, ou só uma ideia solta. Se tem a ver com construir algo bom para pessoas, me chama.",
+    "emailLabel": "Email",
+    "emailValue": "hello@limaotech.com",
+    "linkedinLabel": "LinkedIn",
+    "linkedinValue": "/in/flavioaraujoborges",
+    "linkedinUrl": "https://www.linkedin.com/in/flavioaraujoborges/",
+    "authorName": "Flavio \"Limão\" Araujo",
+    "authorRole": "AI Engineer @ AARIN",
+    "responseTime": "Costumo responder em até dois dias úteis.",
+    "titlePre": "Vamos projetar a próxima",
+    "titlePost": "do seu negócio"
+  },
+  "footer": {
+    "copyright": "© {year} Flavio Araujo Borges.",
+    "tagline": "Feito com IA, autonomia e um pouco de acidez 🍋",
+    "builtWith": "Next.js · Tailwind · Framer Motion"
+  }
+}
