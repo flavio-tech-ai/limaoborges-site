@@ -1,0 +1,14 @@
+{
+  /**
+   * Configuração do Cloudflare Workers para servir o site estático.
+   * O build (`next build`) gera HTML puro em out/ — não há nada de
+   * servidor aqui, então o Worker só publica esses arquivos como
+   * "static assets", sem handler algum.
+   */
+  "name": "limaoborges-site",
+  "compatibility_date": "2026-08-21",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
