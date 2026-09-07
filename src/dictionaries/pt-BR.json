@@ -239,8 +239,8 @@
   },
   "contact": {
     "eyebrow": "Contato",
-    "titleAccent": "grande experiência",
-    "lead": "IA, produto, ou só uma ideia solta. Se tem a ver com construir algo bom para pessoas, me chama.",
+    "titleAccent": "sobre Produto e IA",
+    "lead": "Produto, IA ou uma ideia solta. Se for sobre construir algo interessante, a conversa já vale a pena.",
     "emailLabel": "Email",
     "emailValue": "hello@limaotech.com",
     "linkedinLabel": "LinkedIn",
@@ -249,8 +249,8 @@
     "authorName": "Flavio \"Limão\" Araujo",
     "authorRole": "AI Engineer @ AARIN",
     "responseTime": "Costumo responder em até dois dias úteis.",
-    "titlePre": "Vamos projetar a próxima",
-    "titlePost": "do seu negócio"
+    "titlePre": "Vamos trocar experiências",
+    "titlePost": ""
   },
   "footer": {
     "copyright": "© {year} Flavio Araujo Borges.",

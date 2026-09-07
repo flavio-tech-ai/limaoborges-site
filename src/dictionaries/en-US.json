@@ -248,8 +248,8 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "titleAccent": "digital experience",
-    "lead": "AI, product, or a half-formed idea. If it's about building something good for people, reach out.",
+    "titleAccent": "on Product and AI",
+    "lead": "Product, AI, or a loose idea. If it's about building something interesting, the conversation is already worth having.",
     "emailLabel": "Email",
     "emailValue": "hello@limaotech.com",
     "linkedinLabel": "LinkedIn",
@@ -258,7 +258,7 @@
     "authorName": "Flavio \"Limão\" Araujo",
     "authorRole": "AI Engineer @ AARIN",
     "responseTime": "I usually reply within two business days.",
-    "titlePre": "Let's build your next big",
+    "titlePre": "Let's trade ideas",
     "titlePost": ""
   },
   "footer": {
