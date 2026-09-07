@@ -241,7 +241,7 @@ export function Contact({
                 <textarea
                   id="message"
                   name="message"
-                  rows={2}
+                  rows={1}
                   required
                   placeholder={ui.form.message.placeholder}
                   onInput={autoGrow}
