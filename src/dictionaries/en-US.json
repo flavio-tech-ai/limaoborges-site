@@ -132,15 +132,15 @@
     "quote": "There is no technology without a product, and no product without people. When people are free to be themselves, they deliver what only they could build."
   },
   "focus": {
-    "eyebrow": "Technical focus",
-    "title": "The pillars of my work",
+    "eyebrow": "Focus is key",
+    "title": "My product vision",
     "lead": "Three principles that guide how I think about building products with AI.",
     "cards": [
       {
         "id": "multiagent",
-        "tag": "Pillar 01",
+        "tag": "Purpose",
         "title": "People",
-        "description": "Technology only has value when it solves real pain points. People belong at the center of every product decision, using AI to strengthen relationships.",
+        "description": "People are at the center of any product. Technology should solve real pain points and strengthen relationships.",
         "chips": [
           "Empathy",
           "Collaboration",
@@ -149,9 +149,9 @@
       },
       {
         "id": "physics-to-product",
-        "tag": "Pillar 02",
+        "tag": "Structure",
         "title": "Foundation",
-        "description": "Innovation needs a solid base. I bring analytical rigor to building the foundation of systems that are reliable, resilient, and keep delivering value in production.",
+        "description": "Analytical rigor as the bedrock. I build the foundation of reliable systems that reach production and generate value.",
         "chips": [
           "Rigor",
           "Resilience",
@@ -160,9 +160,9 @@
       },
       {
         "id": "ai-first",
-        "tag": "Pillar 03",
+        "tag": "Impact",
         "title": "Autonomy with AI",
-        "description": "AI whose success is measured by how much time it gives back to people. The goal is to clear out manual work and deliver tools that grant real autonomy.",
+        "description": "AI judged by the time it gives back. The focus is clearing out manual work and granting people real autonomy.",
         "chips": [
           "Efficiency",
           "Proactivity",

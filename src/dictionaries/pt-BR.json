@@ -123,15 +123,15 @@
     "quote": "Não existe tecnologia sem produto, e não existe produto sem pessoas. Quando as pessoas são livres pra serem elas mesmas, entregam o que só elas poderiam entregar."
   },
   "focus": {
-    "eyebrow": "Foco técnico",
-    "title": "Os pilares do meu trabalho",
+    "eyebrow": "Foco é chave",
+    "title": "Minha visão de produto",
     "lead": "Três princípios que guiam a minha visão na construção de produtos com IA.",
     "cards": [
       {
         "id": "multiagent",
-        "tag": "Pilar 01",
+        "tag": "Propósito",
         "title": "Pessoas",
-        "description": "A tecnologia só tem valor quando resolve dores reais. No centro de qualquer decisão de produto devem estar as pessoas, usando a IA para potencializar relações.",
+        "description": "O centro de qualquer produto são as pessoas. A tecnologia deve resolver dores reais e potencializar relações.",
         "chips": [
           "Empatia",
           "Colaboração",
@@ -140,9 +140,9 @@
       },
       {
         "id": "physics-to-product",
-        "tag": "Pilar 02",
+        "tag": "Estrutura",
         "title": "Fundação",
-        "description": "A inovação exige uma base sólida. Uso o rigor analítico para construir a fundação de sistemas confiáveis, resilientes e que geram valor contínuo em produção.",
+        "description": "O rigor analítico como alicerce. Construo a fundação de sistemas confiáveis que chegam à produção e geram valor.",
         "chips": [
           "Rigor",
           "Resiliência",
@@ -151,9 +151,9 @@
       },
       {
         "id": "ai-first",
-        "tag": "Pilar 03",
+        "tag": "Impacto",
         "title": "Autonomia com AI",
-        "description": "IA cujo sucesso é medido por quanto tempo devolve aos usuários. O objetivo é eliminar trabalho manual e entregar ferramentas que garantam verdadeira autonomia.",
+        "description": "IA avaliada pelo tempo que devolve. O foco é eliminar o trabalho manual e dar verdadeira autonomia aos usuários.",
         "chips": [
           "Eficiência",
           "Proatividade",
