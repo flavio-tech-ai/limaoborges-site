@@ -133,40 +133,40 @@
   },
   "focus": {
     "eyebrow": "Technical focus",
-    "title": "Where I add the most value",
-    "lead": "Three fronts that sum up how I think about AI in product.",
+    "title": "The pillars of my work",
+    "lead": "Three principles that guide how I think about building products with AI.",
     "cards": [
       {
         "id": "multiagent",
-        "tag": "AARIN · Fintech",
-        "title": "Multi-agent systems & knowledge bases",
-        "description": "Multi-agent architectures, evaluation harnesses, and the knowledge bases that ground real decisions in product and in support.",
+        "tag": "Pillar 01",
+        "title": "People",
+        "description": "Technology only has value when it solves real pain points. People belong at the center of every product decision, using AI to strengthen relationships.",
         "chips": [
-          "Multi-agent",
-          "Harness",
-          "Knowledge Base"
+          "Empathy",
+          "Collaboration",
+          "Experience"
         ]
       },
       {
         "id": "physics-to-product",
-        "tag": "Physics background",
-        "title": "From data science to AI product",
-        "description": "The analytical rigor of physics and data science, pointed where it counts: systems that reach production and keep working there.",
+        "tag": "Pillar 02",
+        "title": "Foundation",
+        "description": "Innovation needs a solid base. I bring analytical rigor to building the foundation of systems that are reliable, resilient, and keep delivering value in production.",
         "chips": [
-          "Data Science",
-          "Product Engineering",
-          "Applied research"
+          "Rigor",
+          "Resilience",
+          "Scalability"
         ]
       },
       {
         "id": "ai-first",
-        "tag": "How I work",
-        "title": "AI-first & product autonomy",
-        "description": "Responsible AI, measured by outcomes and by how much manual work it clears out of people's way.",
+        "tag": "Pillar 03",
+        "title": "Autonomy with AI",
+        "description": "AI whose success is measured by how much time it gives back to people. The goal is to clear out manual work and deliver tools that grant real autonomy.",
         "chips": [
-          "AI-first",
-          "Autonomy",
-          "Quality"
+          "Efficiency",
+          "Proactivity",
+          "Impact"
         ]
       }
     ]

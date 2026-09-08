@@ -124,40 +124,40 @@
   },
   "focus": {
     "eyebrow": "Foco técnico",
-    "title": "Onde eu entrego mais valor",
-    "lead": "Três frentes que resumem como eu penso IA aplicada a produto.",
+    "title": "Os pilares do meu trabalho",
+    "lead": "Três princípios que guiam a minha visão na construção de produtos com IA.",
     "cards": [
       {
         "id": "multiagent",
-        "tag": "AARIN · Fintech",
-        "title": "Multiagentes & base de conhecimento",
-        "description": "Arquiteturas multiagentes, harness de avaliação e bases de conhecimento que sustentam decisões de produto e de atendimento.",
+        "tag": "Pilar 01",
+        "title": "Pessoas",
+        "description": "A tecnologia só tem valor quando resolve dores reais. No centro de qualquer decisão de produto devem estar as pessoas, usando a IA para potencializar relações.",
         "chips": [
-          "Multiagentes",
-          "Harness",
-          "Knowledge Base"
+          "Empatia",
+          "Colaboração",
+          "Experiência"
         ]
       },
       {
         "id": "physics-to-product",
-        "tag": "Formação em Física",
-        "title": "De dados a produto de IA",
-        "description": "O rigor analítico da Física e da ciência de dados aplicado onde importa: sistemas que chegam em produção e seguem funcionando.",
+        "tag": "Pilar 02",
+        "title": "Fundação",
+        "description": "A inovação exige uma base sólida. Uso o rigor analítico para construir a fundação de sistemas confiáveis, resilientes e que geram valor contínuo em produção.",
         "chips": [
-          "Data Science",
-          "Product Engineering",
-          "Pesquisa aplicada"
+          "Rigor",
+          "Resiliência",
+          "Escalabilidade"
         ]
       },
       {
         "id": "ai-first",
-        "tag": "Filosofia de trabalho",
-        "title": "AI-first & autonomia de produto",
-        "description": "IA responsável, medida por resultado e por quanto trabalho manual ela tira do caminho das pessoas.",
+        "tag": "Pilar 03",
+        "title": "Autonomia com AI",
+        "description": "IA cujo sucesso é medido por quanto tempo devolve aos usuários. O objetivo é eliminar trabalho manual e entregar ferramentas que garantam verdadeira autonomia.",
         "chips": [
-          "AI-first",
-          "Autonomia",
-          "Qualidade"
+          "Eficiência",
+          "Proatividade",
+          "Impacto"
         ]
       }
     ]
