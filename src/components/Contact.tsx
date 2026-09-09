@@ -197,7 +197,7 @@ export function Contact({
               onSubmit={handleSubmit}
               aria-label={ui.form.legend}
               style={{ "--neon": "var(--color-lime)" } as React.CSSProperties}
-              className="neon border-gradient glass flex h-full flex-col gap-4 rounded-3xl p-5 sm:p-8"
+              className="neon border-gradient glass relative flex h-full flex-col gap-4 rounded-3xl p-5 sm:p-8"
             >
               <div>
                 <label
@@ -241,7 +241,7 @@ export function Contact({
                 <textarea
                   id="message"
                   name="message"
-                  rows={2}
+                  rows={1}
                   required
                   placeholder={ui.form.message.placeholder}
                   onInput={autoGrow}

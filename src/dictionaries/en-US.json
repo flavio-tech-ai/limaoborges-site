@@ -86,7 +86,7 @@
   },
   "hero": {
     "eyebrow": "AI Engineer",
-    "subtitle": "Hello, I'm Flavio, but you can call me Limão. I build multi-agent systems and knowledge bases around one fixed idea: AI that gives autonomy back to people.",
+    "subtitle": "Hello, I'm Flavio, but you can call me Limão. I help teams build multi-agent systems and knowledge bases around one fixed idea: AI that gives autonomy back to people.",
     "titleLines": [
       [
         {
@@ -118,60 +118,62 @@
     ]
   },
   "story": {
-    "eyebrow": "The origin of the nickname",
-    "title": "Where my personal brand began",
+    "eyebrow": "Be different",
+    "title": "When life gives you lemons...",
     "stamp": "made of who i am · not just code ·",
     "paragraphs": [
-      "As a kid, I wanted my friend's nickname: Alemão (German). It made zero sense, I did not look German at all, but I asked for it anyway.",
-      "It never caught on. What stuck was Limão (Lemon). It rhymed with my real name, and nobody asked for my permission. It took me years to realize that was exactly the point: you do not ask to stand out, you just deliver.",
-      "Years later, I joined a company transitioning to an AI first model. I arrived with a perspective on AI that went beyond what they expected from \"just another engineer\". And the nickname came back, this time from them."
+      "As a kid, I had a friend everyone called \"Alemão\" (German). I thought it was so cool — being known for something beyond just your name.",
+      "I knew it would never make sense for people to call me German. But I loved lemon popsicles, so I thought: \"why not Limão (Lemon)?\" I tried it. It did not stick. I asked for it. It got worse. That is not how nicknames work.",
+      "Years later, I decided to introduce myself starting from the first time I tried to be different. On my first website, I told this story around the idea that \"when life gives you lemons...\", and for the first time, I let my personality show without a filter.",
+      "That website is what led a company — with the ambition of going AI first, right at the start of the ChatGPT era — to find me. They were looking for an AI engineer. They found someone who insisted on thinking differently.",
+      "That is when Limão stopped being just an attempt at a nickname and became an identity."
     ],
-    "punchline": "They did not hire an AI engineer. They hired Limão.",
+    "punchline": "In the end, they did not just hire an AI engineer. They hired Limão.",
     "quote": "There is no technology without a product, and no product without people. When people are free to be themselves, they deliver what only they could build."
   },
   "focus": {
-    "eyebrow": "Technical focus",
-    "title": "Where I add the most value",
-    "lead": "Three fronts that sum up how I think about AI in product.",
+    "eyebrow": "Focus is key",
+    "title": "My product vision",
+    "lead": "Three principles that guide how I think about building products with AI.",
     "cards": [
       {
         "id": "multiagent",
-        "tag": "AARIN · Fintech",
-        "title": "Multi-agent systems & knowledge bases",
-        "description": "Multi-agent architectures, evaluation harnesses, and the knowledge bases that ground real decisions in product and in support.",
+        "tag": "Purpose",
+        "title": "People",
+        "description": "People are at the center of any product. Technology should solve real pain points and strengthen relationships.",
         "chips": [
-          "Multi-agent",
-          "Harness",
-          "Knowledge Base"
+          "Empathy",
+          "Collaboration",
+          "Experience"
         ]
       },
       {
         "id": "physics-to-product",
-        "tag": "Physics background",
-        "title": "From data science to AI product",
-        "description": "The analytical rigor of physics and data science, pointed where it counts: systems that reach production and keep working there.",
+        "tag": "Structure",
+        "title": "Foundation",
+        "description": "Analytical rigor as the bedrock. Reliable systems grow from a solid foundation, reach production, and keep generating value.",
         "chips": [
-          "Data Science",
-          "Product Engineering",
-          "Applied research"
+          "Rigor",
+          "Resilience",
+          "Scalability"
         ]
       },
       {
         "id": "ai-first",
-        "tag": "How I work",
-        "title": "AI-first & product autonomy",
-        "description": "Responsible AI, measured by outcomes and by how much manual work it clears out of people's way.",
+        "tag": "Impact",
+        "title": "Autonomy with AI",
+        "description": "AI judged by the time it gives back. The focus is clearing out manual work and granting people real autonomy.",
         "chips": [
-          "AI-first",
-          "Autonomy",
-          "Quality"
+          "Efficiency",
+          "Proactivity",
+          "Impact"
         ]
       }
     ]
   },
   "experience": {
     "eyebrow": "Path",
-    "title": "From physics to AI product engineering",
+    "title": "From physics to AI as a product",
     "lead": "Four stops that explain how I got here and why AI became the focus.",
     "currentLabel": "Current role",
     "roles": [
@@ -181,11 +183,11 @@
         "role": "AI Engineer",
         "period": "Current · Fintech",
         "isCurrent": true,
-        "summary": "Helping build a fintech's AI practice from the ground up.",
+        "summary": "Helping weave AI through an entire company.",
         "bullets": [
-          "Design and ship multi-agent systems and evaluation harnesses across the company's products.",
-          "Build the knowledge bases that ground product and support decisions.",
-          "Set the responsible-AI practices, measured by outcomes, quality, and the autonomy they hand back to the team."
+          "Help design and ship multi-agent systems and evaluation harnesses across the company's products.",
+          "Collaborate on the knowledge bases that ground product and support decisions.",
+          "Support the definition of responsible-AI practices, measured by outcomes, quality, and the autonomy they hand back to the team."
         ],
         "tags": [
           "Multi-agent",
@@ -201,9 +203,9 @@
         "isCurrent": false,
         "summary": "Joined at month three, when customer support was still 100% human.",
         "bullets": [
-          "Introduced AI as a layer that backed the human team instead of replacing it.",
-          "Built the multi-agent architecture that carried support through the company's growth.",
-          "This is where \"Limão\" actually stuck, earned by the work rather than by the story."
+          "Helped introduce AI as a layer that backed the human team instead of replacing it.",
+          "Took part in building the multi-agent architecture that carried support through the company's growth.",
+          "This is where \"Limão\" stopped being an attempt at a nickname and became an identity."
         ],
         "tags": [
           "Multi-agent",
@@ -218,8 +220,8 @@
         "isCurrent": false,
         "summary": "The data team's utility player, across dozens of different domains.",
         "bullets": [
-          "Shipped short-cycle deep learning projects in wildly different contexts, back to back.",
-          "Moved into AI agent work back in the GPT-3.5 era and decided right there that this was the specialty worth committing to."
+          "Contributed to short-cycle deep learning projects in wildly different contexts, back to back.",
+          "Moved into AI agent work back in the early ChatGPT era and decided right there that this was the specialty worth committing to."
         ],
         "tags": [
           "Deep Learning",
@@ -234,7 +236,7 @@
         "isCurrent": false,
         "summary": "Internship and undergraduate research while completing a degree in Engineering Physics.",
         "bullets": [
-          "Worked on applied research at one of Brazil's leading science and technology centers.",
+          "Took part in applied research at one of Brazil's leading science and technology centers.",
           "Came close to an academic career and chose a different path: I wanted what I build to reach people's hands, sooner."
         ],
         "tags": [
@@ -246,8 +248,8 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "titleAccent": "digital experience",
-    "lead": "AI, product, or a half-formed idea. If it's about building something good for people, reach out.",
+    "titleAccent": "on Product and AI",
+    "lead": "Product, AI, or a loose idea. If it's about building something interesting, the conversation is already worth having.",
     "emailLabel": "Email",
     "emailValue": "hello@limaotech.com",
     "linkedinLabel": "LinkedIn",
@@ -256,7 +258,7 @@
     "authorName": "Flavio \"Limão\" Araujo",
     "authorRole": "AI Engineer @ AARIN",
     "responseTime": "I usually reply within two business days.",
-    "titlePre": "Let's build your next big",
+    "titlePre": "Let's trade ideas",
     "titlePost": ""
   },
   "footer": {
