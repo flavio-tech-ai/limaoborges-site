@@ -1,9 +1,9 @@
 {
   "meta": {
     "locale": "pt-BR",
-    "title": "Flavio \"Limão\" Araujo · AI Engineer",
-    "description": "AI Engineer. Sistemas multiagentes, bases de conhecimento e uma ideia fixa: IA que devolve autonomia às pessoas.",
-    "ogAlt": "Flavio Araujo, AI Engineer, conhecido como Limão"
+    "title": "Flavio \"Limão\" Araujo · Engenheiro de IA",
+    "description": "Engenheiro de IA. Sistemas multiagentes, bases de conhecimento e uma ideia fixa: IA que devolve autonomia às pessoas.",
+    "ogAlt": "Flavio Araujo, Engenheiro de IA, conhecido como Limão"
   },
   "ui": {
     "nav": {
@@ -29,7 +29,7 @@
       "backToTop": "Voltar ao topo"
     },
     "badge": {
-      "role": "AI Engineer",
+      "role": "Engenheiro de IA",
       "currentRole": "Cargo atual",
       "location": "São Paulo, Brasil · Remoto"
     },
@@ -171,7 +171,7 @@
       {
         "id": "aarin",
         "company": "AARIN",
-        "role": "AI Engineer",
+        "role": "Engenheiro de IA",
         "period": "Atual · Fintech",
         "isCurrent": true,
         "summary": "Ajudando a permear uma empresa com IA.",
@@ -247,7 +247,7 @@
     "linkedinValue": "/in/flavioaraujoborges",
     "linkedinUrl": "https://www.linkedin.com/in/flavioaraujoborges/",
     "authorName": "Flavio \"Limão\" Araujo",
-    "authorRole": "AI Engineer @ AARIN",
+    "authorRole": "Engenheiro de IA @ AARIN",
     "responseTime": "Costumo responder em até dois dias úteis.",
     "titlePre": "Vamos trocar experiências",
     "titlePost": ""
