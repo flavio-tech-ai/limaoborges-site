@@ -86,7 +86,7 @@
   },
   "hero": {
     "eyebrow": "AI Engineer",
-    "subtitle": "Hello, I'm Flavio, but you can call me Limão. I build multi-agent systems and knowledge bases around one fixed idea: AI that gives autonomy back to people.",
+    "subtitle": "Hello, I'm Flavio, but you can call me Limão. I help teams build multi-agent systems and knowledge bases around one fixed idea: AI that gives autonomy back to people.",
     "titleLines": [
       [
         {
@@ -151,7 +151,7 @@
         "id": "physics-to-product",
         "tag": "Structure",
         "title": "Foundation",
-        "description": "Analytical rigor as the bedrock. I build the foundation of reliable systems that reach production and generate value.",
+        "description": "Analytical rigor as the bedrock. Reliable systems grow from a solid foundation, reach production, and keep generating value.",
         "chips": [
           "Rigor",
           "Resilience",
@@ -173,7 +173,7 @@
   },
   "experience": {
     "eyebrow": "Path",
-    "title": "From physics to AI product engineering",
+    "title": "From physics to AI as a product",
     "lead": "Four stops that explain how I got here and why AI became the focus.",
     "currentLabel": "Current role",
     "roles": [
@@ -183,11 +183,11 @@
         "role": "AI Engineer",
         "period": "Current · Fintech",
         "isCurrent": true,
-        "summary": "Helping build a fintech's AI practice from the ground up.",
+        "summary": "Helping weave AI through an entire company.",
         "bullets": [
-          "Design and ship multi-agent systems and evaluation harnesses across the company's products.",
-          "Build the knowledge bases that ground product and support decisions.",
-          "Set the responsible-AI practices, measured by outcomes, quality, and the autonomy they hand back to the team."
+          "Help design and ship multi-agent systems and evaluation harnesses across the company's products.",
+          "Collaborate on the knowledge bases that ground product and support decisions.",
+          "Support the definition of responsible-AI practices, measured by outcomes, quality, and the autonomy they hand back to the team."
         ],
         "tags": [
           "Multi-agent",
@@ -203,9 +203,9 @@
         "isCurrent": false,
         "summary": "Joined at month three, when customer support was still 100% human.",
         "bullets": [
-          "Introduced AI as a layer that backed the human team instead of replacing it.",
-          "Built the multi-agent architecture that carried support through the company's growth.",
-          "This is where \"Limão\" actually stuck, earned by the work rather than by the story."
+          "Helped introduce AI as a layer that backed the human team instead of replacing it.",
+          "Took part in building the multi-agent architecture that carried support through the company's growth.",
+          "This is where \"Limão\" stopped being an attempt at a nickname and became an identity."
         ],
         "tags": [
           "Multi-agent",
@@ -220,8 +220,8 @@
         "isCurrent": false,
         "summary": "The data team's utility player, across dozens of different domains.",
         "bullets": [
-          "Shipped short-cycle deep learning projects in wildly different contexts, back to back.",
-          "Moved into AI agent work back in the GPT-3.5 era and decided right there that this was the specialty worth committing to."
+          "Contributed to short-cycle deep learning projects in wildly different contexts, back to back.",
+          "Moved into AI agent work back in the early ChatGPT era and decided right there that this was the specialty worth committing to."
         ],
         "tags": [
           "Deep Learning",
@@ -236,7 +236,7 @@
         "isCurrent": false,
         "summary": "Internship and undergraduate research while completing a degree in Engineering Physics.",
         "bullets": [
-          "Worked on applied research at one of Brazil's leading science and technology centers.",
+          "Took part in applied research at one of Brazil's leading science and technology centers.",
           "Came close to an academic career and chose a different path: I wanted what I build to reach people's hands, sooner."
         ],
         "tags": [

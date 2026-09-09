@@ -86,7 +86,7 @@
   },
   "hero": {
     "eyebrow": "Engenheiro de IA",
-    "subtitle": "Olá, eu sou o Flavio, mas pode me chamar de Limão. Construo sistemas multiagentes e bases de conhecimento com uma ideia fixa: IA que devolve autonomia às pessoas.",
+    "subtitle": "Olá, eu sou o Flavio, mas pode me chamar de Limão. Ajudo times a construir sistemas multiagentes e bases de conhecimento com uma ideia fixa: IA que devolve autonomia às pessoas.",
     "titleLines": [
       [
         {
@@ -142,7 +142,7 @@
         "id": "physics-to-product",
         "tag": "Estrutura",
         "title": "Fundação",
-        "description": "O rigor analítico como alicerce. Construo a fundação de sistemas confiáveis que chegam à produção e geram valor.",
+        "description": "O rigor analítico como alicerce. Sistemas confiáveis nascem de uma fundação sólida, chegam à produção e seguem gerando valor.",
         "chips": [
           "Rigor",
           "Resiliência",
@@ -164,7 +164,7 @@
   },
   "experience": {
     "eyebrow": "Trajetória",
-    "title": "Da física até a IA de produto",
+    "title": "Da física para IA como produto",
     "lead": "Quatro paradas que explicam como cheguei aqui e por que a IA virou o foco.",
     "currentLabel": "Cargo atual",
     "roles": [
@@ -174,11 +174,11 @@
         "role": "AI Engineer",
         "period": "Atual · Fintech",
         "isCurrent": true,
-        "summary": "Ajudo a construir a área de IA de uma fintech, do zero.",
+        "summary": "Ajudando a permear uma empresa com IA.",
         "bullets": [
-          "Projeto e coloco em produção sistemas multiagentes e harness de avaliação para os produtos da casa.",
-          "Estruturo bases de conhecimento que sustentam decisões de produto e de atendimento.",
-          "Defino as práticas de IA responsável, medidas por resultado, qualidade e autonomia dos times."
+          "Ajudo a projetar e levar à produção sistemas multiagentes e harness de avaliação para os produtos da casa.",
+          "Colaboro na estruturação de bases de conhecimento que sustentam decisões de produto e de atendimento.",
+          "Auxilio na definição das práticas de IA responsável, medidas por resultado, qualidade e autonomia dos times."
         ],
         "tags": [
           "Multiagentes",
@@ -194,9 +194,9 @@
         "isCurrent": false,
         "summary": "Entrei quando a empresa tinha três meses e o atendimento era 100% humano.",
         "bullets": [
-          "Introduzi IA como camada de apoio ao time humano, sem substituí-lo.",
-          "Construí a arquitetura multiagente que sustentou o crescimento do atendimento.",
-          "Foi aqui que \"Limão\" pegou de verdade: pela entrega, não pela história."
+          "Ajudei a introduzir IA como camada de apoio ao time humano, sem substituí-lo.",
+          "Participei da construção da arquitetura multiagente que sustentou o crescimento do atendimento.",
+          "Foi aqui que \"Limão\" deixou de ser tentativa de apelido e virou identidade."
         ],
         "tags": [
           "Multiagentes",
@@ -211,8 +211,8 @@
         "isCurrent": false,
         "summary": "Coringa do time de dados, com passagem por dezenas de domínios diferentes.",
         "bullets": [
-          "Entreguei projetos curtos de deep learning em contextos muito distintos, um atrás do outro.",
-          "Migrei para projetos de agentes de IA ainda na era do GPT-3.5 e decidi ali que era essa a especialização."
+          "Contribuí em projetos curtos de deep learning em contextos muito distintos, um atrás do outro.",
+          "Migrei para projetos de agentes de IA ainda no começo do ChatGPT e decidi ali que era essa a especialização."
         ],
         "tags": [
           "Deep Learning",
@@ -227,7 +227,7 @@
         "isCurrent": false,
         "summary": "Estágio e iniciação científica durante a graduação em Engenharia Física.",
         "bullets": [
-          "Trabalhei em pesquisa aplicada em um dos principais centros científicos do país.",
+          "Atuei em pesquisa aplicada em um dos principais centros científicos do país.",
           "Cheguei perto da carreira acadêmica e escolhi outro caminho: queria ver o que construo chegar às mãos das pessoas, mais rápido."
         ],
         "tags": [
